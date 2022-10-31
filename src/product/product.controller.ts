@@ -1,7 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 import { Product } from './model/product';
 
-@Controller('product')
+@Controller('api/product')
 export class ProductController {
   @Get()
   getAllProducts(): Product[] {
